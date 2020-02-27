@@ -6,15 +6,11 @@
 //for people using hustoj out of China , be careful of the last two line of this file !
 
 // connect db 
-// static 	$DB_HOST="120.79.3.154";
-// static 	$DB_NAME="jol";
-// static 	$DB_USER="root";
-// static 	$DB_PASS="bw661102.";
 
 static 	$DB_HOST="localhost";
 static 	$DB_NAME="bttcoj";
 static 	$DB_USER="root";
-static 	$DB_PASS="rootpassw0rd*";
+static 	$DB_PASS="root";
 
 static 	$OJ_NAME="BTTC Online Judge";
 static 	$OJ_HOME="./";
