@@ -1,0 +1,195 @@
+.share {
+	overflow: hidden;
+	padding-top: 10px
+}
+
+.shareli {
+	margin: 0 15px;
+	padding-bottom: 10px
+}
+
+.share ul li {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 30px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.share ul li i {
+	height: 200px;
+	display: block;
+	overflow: hidden
+}
+
+.share ul li i img {
+	height: 200px;
+	width: auto;
+	margin: auto
+}
+
+.share ul li h2 {
+	height: 38px;
+	font-size: 14px;
+	line-height: 1.4;
+	overflow: hidden;
+	background: #fff;
+	padding: 15px 13px;
+	font-weight: normal;
+	-webkit-box-shadow: 0 5px 10px 0 rgba(146, 146, 146, .1);
+	-moz-box-shadow: 0 5px 10px 0 rgba(146, 146, 146, .1);
+	box-shadow: 0 5px 10px 0 rgba(146, 146, 146, .1);
+}
+
+.share ul li h2 b {
+	height: 38px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	font-weight: normal
+}
+
+.share ul li:hover {
+	transform: translateY(-6px);
+	-webkit-transform: translateY(-6px);
+	-moz-transform: translateY(-6px);
+}
+
+.share ul li span {
+	position: absolute;
+	right: 30px;
+	top: 15px;
+	background: rgba(232, 40, 74, .8);
+	color: #FFF;
+	padding: 3px 8px;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+/*money*/
+.dasbox {
+	width: 130px;
+	background: url(../../../img/dsbz.jpg) no-repeat left 20px center #E2523A;
+	box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, .2);
+	border-radius: 3px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.hide_box {
+	z-index: 999;
+	filter: alpha(opacity=50);
+	background: #666;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	left: 0;
+	top: 0;
+	height: 99%;
+	width: 100%;
+	position: fixed;
+	display: none;
+}
+
+.shang_box {
+	width: 430px;
+	padding: 20px;
+	background: #fff url(../../../img/tbg.jpg) no-repeat center top 40px;
+	border-radius: 10px;
+	position: fixed;
+	z-index: 1000;
+	left: 50%;
+	top: 50%;
+	margin-left: -280px;
+	margin-top: -280px;
+	border: 1px dotted #dedede;
+	display: none;
+}
+
+.shang_box img {
+	border: none;
+	border-width: 0;
+}
+
+.dasbox a {
+	color: #fff;
+}
+
+.shang_close {
+	text-align: right;
+}
+
+.shang_tit {
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+
+.shang_tit p {
+	color: #666;
+	text-align: center;
+	font-size: 16px;
+}
+
+.shang_payimg {
+	width: 140px;
+	padding: 10px;
+	border: 6px solid #EA5F00;
+	margin: 0 auto;
+	border-radius: 3px;
+	height: 140px;
+}
+
+.shang_payimg img {
+	display: block;
+	text-align: center;
+	width: 140px;
+}
+
+.pay_explain {
+	text-align: center;
+	margin: 10px auto;
+	font-size: 12px;
+	color: #545454;
+}
+
+.radiobox {
+	width: 16px;
+	height: 16px;
+	background: url(../../../img/radio2.jpg);
+	display: block;
+	float: left;
+	margin-top: 5px;
+	margin-right: 14px;
+}
+
+.checked .radiobox {
+	background: url(../../../img/radio1.jpg);
+}
+
+.shang_payselect {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 40px;
+	cursor: pointer;
+	height: 60px;
+	width: 280px;
+}
+
+.shang_payselect .pay_item {
+	display: inline-block;
+	margin-right: 10px;
+	float: left;
+}
+
+.shang_payselect img {
+	float: left
+}
+
